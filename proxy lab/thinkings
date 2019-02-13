@@ -1,5 +1,7 @@
-		to try to communicate with the tiny server, i copy the csapp code example "echo client" to call the server , 
+   to try to communicate with the tiny server, i copy the csapp code example "echo client" to call the server , 
 but both the client and tiny misbehave . inorder to figure out the reason for this ,i think it is important to 
 configure a debugging method on CLion for convenience and necessity
-    to use csapp.h csapp.c , a special gcc flag "-pthread" should be announced.as a result ,in the cmakelist.txt , i specify
+   to use csapp.h csapp.c , a special gcc flag "-pthread" should be announced.as a result ,in the cmakelist.txt , i specify
 target_link_options(tiny PUBLIC -pthread)
+   as the tiny works well in the debug mode , i try to figure out how to write a client being able to successfully
+communicate with tiny
