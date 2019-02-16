@@ -6,3 +6,5 @@ target_link_options(tiny PUBLIC -pthread)
    as the tiny works well in the debug mode , i try to figure out how to write a client being able to successfully
 communicate with tiny
    now i implement a proxy.c v0.1 which can send a message to tiny and receive a response from tiny
+   it`s time for me to step into the main requirements of the part I
+   
