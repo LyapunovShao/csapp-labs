@@ -7,4 +7,6 @@ target_link_options(tiny PUBLIC -pthread)
 communicate with tiny
    now i implement a proxy.c v0.1 which can send a message to tiny and receive a response from tiny
    it`s time for me to step into the main requirements of the part I
-   
+   i submit a version which can get 55/70 from the autograder . the lost 15 scores come from Part III .the drive.sh 
+placed a ridiculous request to curl a closed server . some AC solution online even cannot get that 15 scores , i cannot 
+figure out why .this lab has to be paused here ,sadly speaking .
